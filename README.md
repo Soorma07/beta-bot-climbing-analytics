@@ -74,12 +74,47 @@ It ingests your climbing data from Mountain Project, stores it in DynamoDB, and 
 
 ## 🗂 Project Structure
 beta-bot-climbing-analytics/ 
+
 ├── infra/ # CDK stacks 
+
 ├── backend/ # Lambda handlers, API logic 
+
 ├── frontend/ # React SPA 
+
 ├── shared/ # Shared types, utils, zod schemas 
+
 ├── data-contracts/ # API request/response contracts 
+
 └── README.md
+
+
+---
+
+
+## 📈 Roadmap
+
+[x] Repo + CI/CD bootstrap
+
+[ ] Auth + SPA scaffold
+
+[ ] MVP import pipeline
+
+[ ] Aggregates + stats API
+
+[ ] Chat NL‑to‑Query
+
+[ ] Load testing & reliability
+
+[ ] Kafka + EKS advanced processing
+
+🤝 Contributing
+This is a personal portfolio project, but PRs and suggestions are welcome. If you’re a climber + dev, I’d love to hear your ideas for new analytics or visualizations.
+
+📜 License
+MIT License – see LICENSE for details.
+
+🧗 About the Name
+In climbing, beta is the insider knowledge about how to complete a route. This bot gives you the beta on your own climbing history — with analytics to match.
 
 
 ---
@@ -108,29 +143,3 @@ cdk bootstrap
 # Start frontend (dev mode)
 cd ../frontend
 yarn dev
-
----
-
-📈 Roadmap
-[x] Repo + CI/CD bootstrap
-
-[ ] Auth + SPA scaffold
-
-[ ] MVP import pipeline
-
-[ ] Aggregates + stats API
-
-[ ] Chat NL‑to‑Query
-
-[ ] Load testing & reliability
-
-[ ] Kafka + EKS advanced processing
-
-🤝 Contributing
-This is a personal portfolio project, but PRs and suggestions are welcome. If you’re a climber + dev, I’d love to hear your ideas for new analytics or visualizations.
-
-📜 License
-MIT License – see LICENSE for details.
-
-🧗 About the Name
-In climbing, beta is the insider knowledge about how to complete a route. This bot gives you the beta on your own climbing history — with analytics to match.
