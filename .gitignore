@@ -137,3 +137,26 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# --- existing rules above ---
+
+# AWS CDK synth output
+cdk.out/
+
+# AWS SAM build artifacts
+.aws-sam/
+
+# Monorepo / workspace build artifacts
+packages/*/dist/
+packages/*/build/
+
+# Local AWS credentials
+.aws/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Temp files
+tmp/
+
