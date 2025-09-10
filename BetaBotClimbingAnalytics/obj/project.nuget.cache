@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "yTEj/L+kzN8=",
+  "success": true,
+  "projectFilePath": "/Users/adnaansoorma/git/beta-bot-climbing-analytics/BetaBotClimbingAnalytics/BetaBotClimbingAnalytics.csproj",
+  "expectedPackageFiles": [
+    "/Users/adnaansoorma/.nuget/packages/awssdk.core/4.0.0.26/awssdk.core.4.0.0.26.nupkg.sha512",
+    "/Users/adnaansoorma/.nuget/packages/awssdk.s3/4.0.7/awssdk.s3.4.0.7.nupkg.sha512",
+    "/Users/adnaansoorma/.nuget/packages/microsoft.aspnetcore.openapi/9.0.7/microsoft.aspnetcore.openapi.9.0.7.nupkg.sha512",
+    "/Users/adnaansoorma/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
