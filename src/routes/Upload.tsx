@@ -30,7 +30,7 @@ const Upload = () => {
     setSuccess(false);
     try {
       // Step 1: Get pre-signed URL and jobId from API
-      const res = await fetch("/api/get-presigned-url", {
+      const res = await fetch("/api/uploads/presigned-url", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ filename: file.name })
